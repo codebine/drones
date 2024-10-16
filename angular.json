@@ -14,8 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/my-angular-app",
-            "baseHref": "/my-angular-app/",
-            "index": "src/index.html",
+           "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -94,7 +93,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/angular-app/",
+             "repo": "https://github.com/codebine/drones.git"
+          }
         }
       }
     }

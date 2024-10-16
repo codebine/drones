@@ -1,0 +1,105 @@
+
+.lead{
+  font-size: 18px !important;
+  font-weight: 300 !important;
+
+}
+
+/* Support */
+.support-box {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.support-box:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.text-success {
+  color: #41a337 !important;
+}
+.support-box i {
+  font-size: 50px; /* Default size for icons */
+}
+@media (max-width: 767px) {
+  .support-box i {
+    font-size: 40px; /* Smaller icon size for mobile */
+  }
+}
+/* Support */
+/* Contact  */
+.contact{
+  background-color: #f7f9fa;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  width: 100%;
+}
+
+.hero-vertical-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.vertical-card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.vertical-card-col {
+  margin: 0;
+}
+
+.card-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card-container {
+  max-width: 693px;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.divider {
+  height: 2px;
+  width: 48px;
+  background-color: #41a337;
+  margin: 24px auto;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.buttons-container {
+  margin-top: 24px;
+}
+
+.button-wrapper {
+  min-width: 187px;
+}
+
+.dji-btn {
+  border-radius: 60px;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.dji-btn:hover {
+  background-color: #333;
+}
+/* Contact  */
